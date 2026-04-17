@@ -1,0 +1,35 @@
+{
+  "model": "CycleGAN",
+  "timestamp": "2026-03-31T10:25:57.786837",
+  "device": "cuda",
+  "hyperparameters": {
+    "img_size": 256,
+    "batch_size": 4,
+    "num_epochs": 5,
+    "learning_rate": 0.0002,
+    "betas": [
+      0.5,
+      0.999
+    ],
+    "lambda_cycle": 10.0,
+    "lambda_identity": 5.0,
+    "num_residual_blocks": 9,
+    "ngf": 64,
+    "ndf": 64,
+    "pool_size": 50
+  },
+  "architecture": {
+    "generator": {
+      "name": "Generator",
+      "in_channels": 3,
+      "out_channels": 3,
+      "ngf": 64,
+      "num_residual_blocks": 9
+    },
+    "discriminator": {
+      "name": "PatchDiscriminator",
+      "in_channels": 3,
+      "ndf": 64
+    }
+  }
+}

@@ -1,0 +1,27 @@
+# CycleGAN Gradio UI for HuggingFace Spaces
+# Core Dependencies
+torch>=2.5.0
+torchvision>=0.20.0
+
+# Web Framework
+gradio>=4.40.0
+
+# Image Processing
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Data & Visualization
+numpy>=1.24.0
+matplotlib>=3.8.0
+scikit-image>=0.21.0
+
+# HuggingFace Integration
+huggingface-hub>=0.23.0
+datasets>=2.16.0
+
+# Utilities
+tqdm>=4.66.0
+requests>=2.31.0
+
+# Optional: For better performance
+tensorboard>=2.14.0
