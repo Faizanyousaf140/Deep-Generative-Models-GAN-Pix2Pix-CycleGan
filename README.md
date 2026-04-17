@@ -22,7 +22,7 @@ A collection of three deep generative modelling projects built with PyTorch, cov
 
 | # | Task | Architecture | Dataset | App |
 |---|------|-------------|---------|-----|
-| Q1 | Anime / Pokémon face generation | DCGAN · WGAN-GP | Anime Faces (43 k images) | Streamlit |
+| Q1 | Anime / Pokemon face generation | DCGAN · WGAN-GP | Anime Faces (43 k images) | Streamlit |
 | Q2 | Sketch → colorised image | Pix2Pix (U-Net + PatchGAN) | CUHK CUFS · Anime Sketch Pairs | Streamlit |
 | Q3 | Sketch ↔ Photo (unpaired) | CycleGAN (ResNet + PatchGAN) | Sketch–Photo pairs | Gradio (HuggingFace Spaces) |
 
