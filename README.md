@@ -1,6 +1,16 @@
 # Deep Generative Models: GAN · Pix2Pix · CycleGAN
 
-A collection of three deep generative modelling projects built with PyTorch, covering vanilla/improved GANs, conditional image-to-image translation (Pix2Pix), and unpaired image-to-image translation (CycleGAN).
+## 🚀 Live Demos
+
+| Project | App |
+|---------|-----|
+| Q1 – DCGAN & WGAN-GP Anime Generation | [Open App](https://huggingface.co/spaces/Faizan11112/dcgan-wgan-anime-generation) |
+| Q2 – Pix2Pix Sketch Colorization | [Open App](https://huggingface.co/spaces/Faizan11112/pix2pix-sketch-colorization) |
+| Q3 – CycleGAN Sketch ↔ Photo | [Open App](https://huggingface.co/spaces/Faizan11112/cyclegan-sketch-photo) |
+
+## 📝 Medium Blog
+
+[I Trained DCGAN, WGAN-GP, Pix2Pix and CycleGAN from Scratch — Here's What Actually Happened](https://medium.com/@f223875/i-trained-dcgan-wgan-gp-pix2pix-and-cyclegan-from-scratch-heres-what-actually-happened-b920551608d4)
 
 ---
 
